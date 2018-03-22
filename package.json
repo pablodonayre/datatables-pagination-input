@@ -1,0 +1,24 @@
+{
+  "name": "datatables-pagination-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/input.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxlkuc/datatables-pagination-input.git"
+  },
+  "keywords": [
+    "datatables",
+    "pagination",
+    "input"
+  ],
+  "author": "kuc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxlkuc/datatables-pagination-input/issues"
+  },
+  "homepage": "https://github.com/lxlkuc/datatables-pagination-input#readme"
+}
