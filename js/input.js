@@ -94,7 +94,8 @@
 			}
 
 			nInput.type = 'text';
-			nPage.innerHTML = '跳到';
+			//nPage.innerHTML = '跳到';
+			nPage.innerHTML = 'Page ';
 
 			nPaging.appendChild(nFirst);
 			nPaging.appendChild(nPrevious);
@@ -215,7 +216,8 @@
 				.addClass(disableClasses[lastClassName]);
 
 			// Paginate of N pages text
-			$(an).children('.' + paginateOfClassName).html('/ ' + iPages + ' 页');
+			//$(an).children('.' + paginateOfClassName).html('/ ' + iPages + ' 页');
+			$(an).children('.' + paginateOfClassName).html(' of ' + iPages);
 
 			// Current page numer input value
 			$(an).children('.' + paginateInputClassName).val(iCurrentPage);
